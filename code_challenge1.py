@@ -1,11 +1,13 @@
+## This is small programme to place pizza orders
+
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L ").upper()
 add_pepperoni = input("Do you want pepperoni? Y or N ").upper()
 extra_cheese = input("Do you want extra cheese? Y or N ").upper()
 bill = 0
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+
+## Show the price of the pizza based on the inputs selected
 
 if size == 'S' or size == 's':
   bill = 15
@@ -23,4 +25,6 @@ else:
 if extra_cheese == 'Y' or 'y':
   bill += 1
 
+  ## Final bill of the pizz
+  
 print(f"your final bill is {bill}")
